@@ -1,0 +1,239 @@
+47c59e53c02cbb58e3d506ef59e7b524629659db7bf90b4c711fb1c2ff7e616e wss://bsc.getblock.io/testnet/?api_key=1c20dd60-abf3-4aa1-8b66-fa6e370fea30
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/interfaces/test/ILink.sol
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'testnet'
+> Network id:      97
+> Block gas limit: 29999084 (0x1c9bfec)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x07b3a727638be5a001a65a2f1b97556f9c62b75b310fe56b73d235382f2237f6
+   > Blocks: 3            Seconds: 8
+   > contract address:    0xe7E482ec0D7b2648630df99B25EFfa3e9Da5d65f
+   > block number:        11133211
+   > block timestamp:     1627922347
+   > account:             0x1C235650e04944ee6db0684Fe65a37dF1775E62B
+   > balance:             2.351195845849384353
+   > gas used:            246904 (0x3c478)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00493808 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 11133213)
+   > confirmation number: 3 (block: 11133214)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00493808 ETH
+
+
+2_deploy_token.js
+=================
+
+   Replacing 'LimeToken'
+   ---------------------
+   > transaction hash:    0x64b3075cc6487eccd6dc2103b90573baa5c3d43aa16e60c736558f8624894288
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xAA6356866602cda84DaAB73E6cbBAf438A403625
+   > block number:        11133219
+   > block timestamp:     1627922371
+   > account:             0x1C235650e04944ee6db0684Fe65a37dF1775E62B
+   > balance:             2.268649505849384353
+   > gas used:            4084804 (0x3e5444)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.08169608 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 11133221)
+   > confirmation number: 3 (block: 11133222)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.08169608 ETH
+
+
+3_deploy_distribution.js
+========================
+
+   Replacing 'Distribution'
+   ------------------------
+   > transaction hash:    0x7dbbfc782fc7e2e2b91c6746582372fbf50d4c68976ba0a81006b6b2319b68b4
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xF9a8E402FfdDD5DA69445e07761c8E9F862b47e7
+   > block number:        11133234
+   > block timestamp:     1627922416
+   > account:             0x1C235650e04944ee6db0684Fe65a37dF1775E62B
+   > balance:             2.218503005849384353
+   > gas used:            2347170 (0x23d0a2)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0469434 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 11133236)
+   > confirmation number: 3 (block: 11133237)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0469434 ETH
+
+
+4_deploy_farm.js
+================
+
+   Replacing 'TokenFarm'
+   ---------------------
+   > transaction hash:    0xd2725e2d503f8a36ccf22695c04921dba48c50db0dc4373b60d1ca9c6e74b102
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x2b02BBfb009a8bE49D9Aa7973b84200BD28dA08B
+   > block number:        11133243
+   > block timestamp:     1627922443
+   > account:             0x1C235650e04944ee6db0684Fe65a37dF1775E62B
+   > balance:             2.168377925849384353
+   > gas used:            2478741 (0x25d295)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04957482 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 11133245)
+   > confirmation number: 3 (block: 11133246)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.04957482 ETH
+
+
+5_create_pools.js
+=================
+Starting
+Approvals succeeded, providing liquidity for LIME-BNB and LIME-BUSD
+First liquidity added
+LIME Liquidity succeed
+Creating Farms...
+BNB/LIME created, address:  0x099C3e2d52C8d078f1026F3f21a5C7558456e78a
+BUSD/LIME created, address:  0x6c17b0F7d06EcFC62768C53E6a41f7151572A563
+Tax-free pools created
+BNB/BUSD created, address:  0xe0e92035077c39594793e61802a350347c320cf2
+DAI/BUSD created, address:  0xF8E4ce287E0D1f9c9fda5EC917515cB87D9C1E6C
+Creating pools...
+Success
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+6_deploy_lottery_governance.js
+==============================
+
+   Deploying 'LotteryGovernance'
+   -----------------------------
+   > transaction hash:    0x6ade48f55cd2c44f69a047c742aeeca515625670553402e930d89f5a65d8954e
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xe646068CA3301D180d0A8aA8A0d2f4F66F5578C4
+   > block number:        11133292
+   > block timestamp:     1627922590
+   > account:             0x1C235650e04944ee6db0684Fe65a37dF1775E62B
+   > balance:             1.638093765849384353
+   > gas used:            396885 (0x60e55)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0079377 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 11133294)
+   > confirmation number: 3 (block: 11133295)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0079377 ETH
+
+
+7_deploy_lottery.js
+===================
+
+   Deploying 'Lottery'
+   -------------------
+   > transaction hash:    0x97f8c431f9f4aaae14fc3ba11974a03df016730376710a87406466425164176e
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x9687289fA79b09bC2A33a429C3C2BcBf4a3976E2
+   > block number:        11133300
+   > block timestamp:     1627922614
+   > account:             0x1C235650e04944ee6db0684Fe65a37dF1775E62B
+   > balance:             1.585963485849384353
+   > gas used:            2579001 (0x275a39)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.05158002 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 11133302)
+   > confirmation number: 3 (block: 11133303)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.05158002 ETH
+
+
+8_deploy_randomness.js
+======================
+
+   Deploying 'RandomNumberConsumer'
+   --------------------------------
+   > transaction hash:    0xe70f5eba212585d8e3757e899e5924cbefe08c0eb8b4dab50845cdc12fcbdf9c
+   > Blocks: 2            Seconds: 4
+   > contract address:    0x96B63a9C497994Eb858593e7a7411cADAEc54ddD
+   > block number:        11133311
+   > block timestamp:     1627922647
+   > account:             0x1C235650e04944ee6db0684Fe65a37dF1775E62B
+   > balance:             1.564514045849384353
+   > gas used:            917969 (0xe01d1)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01835938 ETH
+
+   Pausing for 3 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 11133313)
+   > confirmation number: 3 (block: 11133314)
+0x9687289fA79b09bC2A33a429C3C2BcBf4a3976E2 0x96B63a9C497994Eb858593e7a7411cADAEc54ddD
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.01835938 ETH
+
+
+Summary
+=======
+> Total deployments:   7
+> Final cost:          0.26102948 ETH
+
+
